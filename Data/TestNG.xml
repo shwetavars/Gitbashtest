@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Testingsuite">/
+<test name ="login">
+<parameter name = "email" value = "techfiosdemo@gmail.com"/>
+<parameter name = "password" value ="abc123"/>
+<classes>
+<!--testing comments -->
+<class name = "test.LoginTest" />
+</classes>
+</test>
+
+<test name ="Addcontact">
+<parameter name = "email" value = "techfiosdemo@gmail.com"/>
+<parameter name = "password" value ="abc123"/>
+<parameter name = "Name" value = "NewTestng"/>
+<parameter name = "Company" value = "Xerox"/>
+<parameter name = "EmailContact" value = "oiu@gmail.com"/>
+<parameter name = "Phone" value = "768765764"/>
+<parameter name = "address" value = "123,Willy st"/>
+<parameter name = "city" value = "Lancaster"/>
+<parameter name = "state" value = "SC"/>
+<parameter name = "zipcode" value = "98765"/>
+<parameter name = "country" value = "United States"/>
+<classes>
+<class name = "test.AddContactTest"/>
+</classes>
+</test>
+</suite>
